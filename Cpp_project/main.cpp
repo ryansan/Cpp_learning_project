@@ -8,8 +8,23 @@
 
 #include <iostream>
 
+void log(const char* message);
+int multiply(int a, int b);
+int test();
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    
+    log("HEII");
+    
+    std::cin.get();
+    
+    int c = multiply(20,20);
+    
+    log("c");
+    
+    test();
+    
     return 0;
 }
