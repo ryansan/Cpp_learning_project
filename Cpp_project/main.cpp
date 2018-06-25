@@ -12,6 +12,16 @@ void log(const char* message);
 int multiply(int a, int b);
 int test();
 
+void memsetAndPointers(){
+    
+    char* buffer = new char[8];
+
+    memset(buffer, 0, 8);
+    
+    delete [] buffer;
+    
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
@@ -25,6 +35,8 @@ int main(int argc, const char * argv[]) {
     log("c");
     
     test();
+    
+    memsetAndPointers();
     
     return 0;
 }

@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C172AA6320E1337A00143185 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 		C1C4B4E720DC336600D3F02C /* Cpp_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C4B4EA20DC336600D3F02C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C1C4B4F120DC383E00D3F02C /* log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
@@ -47,9 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C172AA6220E1336200143185 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C172AA6320E1337A00143185 /* Notes.rtf */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C1C4B4DE20DC336600D3F02C = {
 			isa = PBXGroup;
 			children = (
+				C172AA6220E1336200143185 /* New Group */,
 				C1C4B4E920DC336600D3F02C /* Cpp_project */,
 				C1C4B4E820DC336600D3F02C /* Products */,
 			);
